@@ -144,6 +144,6 @@ public class HomeController {
 		httpSession.removeAttribute("userId");
 		httpSession.removeAttribute("userPassword");
 		
-		return "login";
+		return "login"; 
 	}
 }
